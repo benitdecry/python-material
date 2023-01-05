@@ -1,0 +1,55 @@
+root password - Brio123
+
+Native Authentication for root user - Brio@123
+
+my sql user name - abdul , password - Brio@123
+
+
+CREATE USER 'abdul'@'localhost' IDENTIFIED BY 'U,#1_SZF5ee*@Nx9';
+
+
+
+wordpress:
+
+user - abdul
+password - NPB5WlbEfRJX^sIB*X
+email - abdulhameed@onepathsolutions.com
+
+
+define('AUTH_KEY',         'K|_`!dSn,B2jq=,v2XnpT+ig2ES.t8}^s2IB5Q-a xE4fL8azB/~BzlFEq @CjH&');
+define('SECURE_AUTH_KEY',  'K5;)wAIBp]sOE/} Ph`Ng%LyLS#&CXHEJ+rtX}yFu.sr/xQ|xaXJm.6Ar3S2U$-1');
+define('LOGGED_IN_KEY',    'C+.:!Q#_fs#pQ4nj60cuD_w*Y-_Dq.A&|F~oSsf8d=/A&5hf.s+_*-#`I*,UG&xc');
+define('NONCE_KEY',        'X[=fQ2[14t_bE3biSAy|K-0{;=xWaghWlj/a%|z->`F^o)neM,}WoMuc.+i(FwyJ');
+define('AUTH_SALT',        'G.PO>_M?-pP::e[C]|x//QW;Ay-,Wp4VbRh`W~URS|k,5@1>B}w2+u8^Wlm;]n 3');
+define('SECURE_AUTH_SALT', '|Sy[]QR<d1GCc:UPX5L0h-U~am5ornnX%jkF0ES!qlTf2>Pd+ZZlnQgktVRe.(l)');
+define('LOGGED_IN_SALT',   '9+jA42V%?6ip_>QBqQEcEL:S=z:A6F|`9w,19*Gu;wp`opxyKzdxb@}~KjnTVer4');
+define('NONCE_SALT',       'ys0JuJ+[L/%XDd*x(=]:&jf,Rw Vd *}9>Ypa5t<(yJUibqtj+WL2wtT6;JJfrfh');
+
+
+under document root 
+
+Amal Deny1:25 PM
+<Directory "/var/www/wordpress">
+Options Indexes FollowSymLinks
+AllowOverride All
+Order allow,deny
+Allow from all
+</Directory>
+Amal Deny1:31 PM
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+
+ this is for .htaccess
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+
+
+abdul
+zKXOoo*Pi6ir#i2x3*
+

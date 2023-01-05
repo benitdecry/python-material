@@ -1,0 +1,22 @@
+https://enlear.academy/how-to-set-up-a-kubernetes-cluster-in-google-cloud-platform-d90af4733ee7
+https://medium.com/google-cloud/dns-on-gke-everything-you-need-to-know-b961303f9153
+https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app
+https://enlear.academy/how-to-set-up-a-kubernetes-cluster-in-google-cloud-platform-d90af4733ee7
+https://github.com/GoogleCloudPlatform/httplb-autoscaling-go
+https://cloud.google.com/community/tutorials/ssh-via-iap
+https://cloud.google.com/compute/docs/autoscaler
+https://cloud.google.com/compute/docs/instance-groups/regional-migs#proactive_instance_redistribution
+https://cloud.google.com/kubernetes-engine/docs/archive/configuring-privately-used-public-ips-for-GKE
+https://cloud.google.com/iap/docs/using-tcp-forwarding
+https://logz.io/blog/containerized-app-gke/
+https://cloud.google.com/architecture/jenkins-on-kubernetes-engine-tutorial
+https://cloud.google.com/architecture/jenkins-on-kubernetes-engine
+https://github.com/GoogleCloudPlatform/continuous-deployment-on-kubernetes
+
+
+5cf63b0464274b34a7df45f013a2b75c
+
+
+user name - jenkins_user
+password - Brio@123
+
